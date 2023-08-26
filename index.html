@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruit assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <style>
+    .fontstyle{
+        font-family: 'Manrope', sans-serif;
+    }
+  </style>
+</head>
+<body class="fontstyle">
+    <header class="container mx-auto">
+        <section class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg ">
+            <nav>
+                <div class="navbar justify-between">
+                    
+                      <div class="flex gap-2">
+                       <div><p class="text-xs">Home</p></div>
+                       <div><p class="text-xs">About us</p></div>
+                       <div><p class="text-xs">shope</p></div>
+                       <div><p class="text-xs">All fruits</p></div>
+                      </div>
+                
+                    <div class=" gap-2">
+                        <img src="logo.png" alt="" class="h-4 w-4">
+                       <a class="text-xl">Fruit Burst</a>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Search" class="input rounded-3xl border-black text-black bg-white h-auto  md:w-auto" /> 
+                    </div>      
+                </div>
+            </nav>
+        </section>
+        <section class="mt-4">
+            <div class="flex justify-between text-center ">
+                <div class="w-2/3">
+                    <h3 class="text-2xl">Deal of the day</h3>
+                    <p>1 week = 7 days = 168 hours = 10,080 minutes = 604,800 seconds. With respect to the Gregorian calendar: 1 Gregorian calendar year = 52 weeks + 1 day (2 days in a leap year) </p>
+                </div>
+                <div class="flex w-auto">
+                    <div><p class="font-semibold">29 : <br> Days </p></div>
+                    <div><p class="font-semibold">15 : <br> Hours </p></div>
+                    <div><p class="font-semibold">25 : <br> Minutes </p></div>
+                    <div><p class="font-semibold">08 <br> Second </p></div> 
+                </div>
+                </div>
+                <div>
+                  <div class="flex mt-8">
+                    <div class="card w-60 bg-base-100 shadow-xl text-center justify-items-center">
+                      <figure><img src="fruit6.png" alt="" class="w-24 h-20" /></figure>
+                      <div class="card-body text-center">
+                        <h2 class="text-center font-bold">12.90$-18.85$</h2>
+                        <p class="text-xs">Apple</p>
+                      </div>
+                      <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div>
+                        <button class="btn w-auto items-center rounded-xl text-red-900 bg-slate-50 " onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal ">
+  <form method="dialog" class="modal-box h-2/3 w-44">
+    <img src="fruit6.png" alt="">
+    <h3 class="font-bold text-lg">Apple</h3>
+    <p class="py-4 text-xs">professional employees choose this Apple for you</p>
+    <div class="flex justify-center gap-2">
+      <div><button class="btn text-red-500 rounded-2xl ">Close</button></div>
+      <div><button class="btn rounded-2xl">Buy Now</button></div>
+    </div>
+  </form>
+</dialog>
+  </div>
+</div>
+<div>
+  <div class="flex">
+    <div class="card w-60 bg-base-100 shadow-xl text-center justify-items-center">
+      <figure><img src="fruit6.png" alt="" class="w-24 h-20" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-center font-bold">12.90$-18.85$</h2>
+        <p class="text-xs">Apple</p>
+      </div>
+      <div class="rating rating-lg rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+      </div>
+      <div>
+        <button class="btn w-auto items-center rounded-xl text-red-900 bg-slate-50 " onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal ">
+<form method="dialog" class="modal-box h-2/3 w-44">
+<img src="fruit6.png" alt="">
+<h3 class="font-bold text-lg">Apple</h3>
+<p class="py-4 text-xs">professional employees choose this Apple for you</p>
+<div class="flex justify-center gap-2">
+<div><button class="btn text-red-500 rounded-2xl ">Close</button></div>
+<div><button class="btn rounded-2xl">Buy Now</button></div>
+</div>
+</form>
+</dialog>
+</div>
+</div> 
+<div>
+  <div class="flex">
+    <div class="card w-60 bg-base-100 shadow-xl text-center justify-items-center">
+      <figure><img src="fruit6.png" alt="" class="w-24 h-20" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-center font-bold">12.90$-18.85$</h2>
+        <p class="text-xs">Apple</p>
+      </div>
+      <div class="rating rating-lg rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+      </div>
+      <div>
+        <button class="btn w-auto items-center rounded-xl text-red-900 bg-slate-50 " onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal ">
+<form method="dialog" class="modal-box h-2/3 w-44">
+<img src="fruit6.png" alt="">
+<h3 class="font-bold text-lg">Apple</h3>
+<p class="py-4 text-xs">professional employees choose this Apple for you</p>
+<div class="flex justify-center gap-2">
+<div><button class="btn text-red-500 rounded-2xl ">Close</button></div>
+<div><button class="btn rounded-2xl">Buy Now</button></div>
+</div>
+</form>
+</dialog>
+</div>
+</div> 
+<div>
+  <div class="flex">
+    <div class="card w-60 bg-base-100 shadow-xl text-center justify-items-center">
+      <figure><img src="fruit6.png" alt="" class="w-24 h-20" /></figure>
+      <div class="card-body text-center">
+        <h2 class="text-center font-bold">12.90$-18.85$</h2>
+        <p class="text-xs">Apple</p>
+      </div>
+      <div class="rating rating-lg rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-red-700 mask mask-star-2 mask-half-2" />
+      </div>
+      <div>
+        <button class="btn w-auto items-center rounded-xl text-red-900 bg-slate-50 " onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal ">
+<form method="dialog" class="modal-box h-2/3 w-44">
+<img src="fruit6.png" alt="">
+<h3 class="font-bold text-lg">Apple</h3>
+<p class="py-4 text-xs">professional employees choose this Apple for you</p>
+<div class="flex justify-center gap-2">
+<div><button class="btn text-red-500 rounded-2xl ">Close</button></div>
+<div><button class="btn rounded-2xl">Buy Now</button></div>
+</div>
+</form>
+</dialog>
+</div>
+</div> 
+</div>
+</div>
+</div> 
+</div>              
+  </section>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
+ 
